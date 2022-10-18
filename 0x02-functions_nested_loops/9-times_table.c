@@ -6,6 +6,7 @@
 void times_table(void)
 {
 	int x, y, z;
+
 	z = x * y;
 
 	for (x = 0; x < 10; x++)
@@ -17,6 +18,7 @@ void times_table(void)
 			if (y != 9)
 			{
 				_putchar(',');
+				_putchar(' ');
 			}
 		}
 
