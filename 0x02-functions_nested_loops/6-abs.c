@@ -2,7 +2,7 @@
 
 /**
  * _abs - calculate the absolue value of an int
- * @int: parameter an integer
+ * @n: parameter an integer
  *
  * Return: the absolute value of n
  */
