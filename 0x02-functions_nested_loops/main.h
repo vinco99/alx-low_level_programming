@@ -1,6 +1,12 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-int _putchar(char c)
+/**
+ * _putchar -writes the character c to std
+ * @c: parameter to be entered
+ * Return: 0
+ */
+
+int _putchar(char c);
 
 #endif
