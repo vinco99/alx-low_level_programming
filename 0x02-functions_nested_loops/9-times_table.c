@@ -7,12 +7,12 @@ void times_table(void)
 {
 	int x, y, z;
 
-	z = x * y;
-
 	for (x = 0; x < 10; x++)
 	{
 		for (y = 0; y < 10; y++)
 		{
+			z = x * z
+
 			_putchar(z);
 
 			if (y != 9)
