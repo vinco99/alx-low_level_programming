@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 
 /**
@@ -13,8 +14,8 @@ void times_table(void)
 		for (y = 0; y < 10; y++)
 		{
 			z = x * y;
-
-			_puchar(z + 48);
+			
+			printf("%d", z);
 
 			if (y != 9)
 			{
