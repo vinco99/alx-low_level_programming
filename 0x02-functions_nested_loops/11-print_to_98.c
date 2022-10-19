@@ -14,21 +14,33 @@ void print_to_98(int n)
 	{
 		for (x = n; x >= 98; x--)
 		{
-			printf("%d", x);
-			_putchar(',');
-			_putchar(' ');
+			if (n != 98)
+			{
+				printf("%d, ", x);
+			}
+			else
+			{
+				printf("%d", x);
+			}
 		}
-		_putchar('\n');
+
+		printf("\n");
 	}
 	else
 	{
 		for (x = n; x < 98; x++)
 		{
-			printf("%d", x);
-			_putchar(',');
-			_putchar(' ');
+			if (n != 98)
+			{
+				printf("%d, ", x);
+			}
+			else
+			{
+				printf("%d", x);
+			}
 		}
-		_putchar('\n');
+
+		printf("\n");
 	}
 
 }
