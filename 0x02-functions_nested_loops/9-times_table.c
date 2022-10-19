@@ -18,7 +18,7 @@ void times_table(void)
 			{
 				if (z <= 9)
 				{
-					printf("%d,  ", z);
+					printf("%d,   ", z);
 				}
 				else
 				{
