@@ -14,7 +14,7 @@ void times_table(void)
 		{
 			z = x * y;
 
-			_puchar(z % 10 + '0');
+			_puchar(z + 48);
 
 			if (y != 9)
 			{
