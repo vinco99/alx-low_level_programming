@@ -2,19 +2,15 @@
 
 /**
  * _isupper - checks if c is upper case or lowercase
- * @c - parameter to be checked
+ * @c: parameter to be checked
  *
  * Return: 1 if c is uppercase, otherwise 0.
  */
 int _isupper(int c)
 {
-	if (c >= 'A' || c <= 'Z')
+	if (c > 64 && c < 91)
 	{
 		return (1);
-	}
-	else if (c >= 'a' || c <= 'z')
-	{
-		return (0);
 	}
 	else
 	{
