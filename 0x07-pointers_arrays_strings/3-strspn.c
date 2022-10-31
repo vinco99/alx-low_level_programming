@@ -4,7 +4,7 @@
 /**
  * _strspn - Gets the length of prifixes of substring
  * @s: the string
- * @accept: the 
+ * @accept: the to be used
  *
  * Returns: unsigned int.
  */
