@@ -6,7 +6,7 @@
  * @haystack: the string
  * @needle: the second string
  *
- * Retrun: char
+ * Return: char.
  */
 char *_strstr(char *haystack, char *needle)
 {

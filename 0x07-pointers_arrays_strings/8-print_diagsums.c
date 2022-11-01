@@ -7,15 +7,22 @@
  */
 void print_diagsums(int *a, int size)
 {
-	int i, p, s;
+	int i, j, k, p, s;
 
 	p = 0;
 	s = 0;
 
 	for (i = 0; i < size; i++)
 	{
-		p += a[i][i];
-		s += a[i][size - i - 1];
+		k = (i * size) + 1;
+		p += *(a + k);
 	}
+
+	for (j = 0; j < size; j++)
+	{
+		k = (j * size) + (size - 1 - j);
+		s += *(a + k);
+	}
+
 	printf("%i, %i\n", p, s);
 }

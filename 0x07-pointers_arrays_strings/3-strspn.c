@@ -6,7 +6,7 @@
  * @s: the string
  * @accept: the to be used
  *
- * Returns: unsigned int.
+ * Return: unsigned int.
  */
 unsigned int _strspn(char *s, char *accept)
 {
