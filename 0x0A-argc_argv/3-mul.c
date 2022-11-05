@@ -7,7 +7,7 @@
  * @argc: parameter
  * @argv: array
  *
- * Return: 0 Always (Success)
+ * Return: 0  or 1 
  */
 int main(int argc, char *argv[])
 {
@@ -18,6 +18,8 @@ int main(int argc, char *argv[])
 	if (argc < 2)
 	{
 		printf("Error\n");
+
+		return (1);
 	}
 	else
 	{
@@ -26,7 +28,8 @@ int main(int argc, char *argv[])
 			mul = mul * atoi(argv[i]);
 		}
 		printf("%d\n", mul);
+
+		return (0);
 	}
 
-	return (0);
 }
