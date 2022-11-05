@@ -7,7 +7,7 @@
  * @argc: parameter
  * @argv: array
  *
- * Return: 0  or 1 
+ * Return: 0  or 1
  */
 int main(int argc, char *argv[])
 {
@@ -21,15 +21,13 @@ int main(int argc, char *argv[])
 
 		return (1);
 	}
-	else
-	{
-		for (i = 1; i < argc; i++)
-		{
-			mul = mul * atoi(argv[i]);
-		}
-		printf("%d\n", mul);
 
-		return (0);
+	for (i = 1; i < argc; i++)
+	{
+		mul = mul * atoi(argv[i]);
 	}
+	printf("%d\n", mul);
+
+	return (0);
 
 }
